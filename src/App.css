@@ -1,0 +1,83 @@
+.imgcontainer {
+  background: url(\img\Helsinki_view_custle.jpg) no-repeat center center;
+  width: 100%;
+  height: 100vh; /*  /// 400px */
+  background-size: cover;
+}
+
+html {
+  font-family: 'Roboto';
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 5vw;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 180px;
+}
+
+h1:hover {
+  font-size: 25vw;
+  transition: 8s;
+}
+
+.leaflet-container {
+  height:900px;
+}
+
+@media only screen and (max-width: 435px){
+
+  .leaflet-container {
+
+    height:calc(100vh - 80px);
+  }
+}
+.menu {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.menu-item {
+  cursor: pointer;
+  padding: 5px;
+  height: 28px;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.menu-item:hover {
+  color: #2980b9;
+}
+
+#modal{ z-index:2; }
+#map{ z-index:1; }
+
+.leaflet-container {
+  z-index: 0
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}

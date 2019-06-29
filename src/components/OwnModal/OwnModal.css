@@ -1,0 +1,51 @@
+ 
+#whiteContainer{
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 50px; 
+ 
+}
+
+.interestingImg{margin-top: 30px;}
+
+#interestingEventShowButton{
+  margin-top: 20px;
+}
+#closeButton{ position: absolute;
+              top:60px;
+              right:350px;
+              max-width: 125px;
+}
+.eventHeader {
+  font-weight: bold;
+}
+
+.far fa-heart {
+  color: red;
+}
+
+.heartDiv{
+  margin-top: 20px;
+}
+@media only screen and (max-width: 435px){
+
+  #closeButton{width:50px;
+    top:50px;
+  right:50px;}
+}
+
+
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}

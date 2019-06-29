@@ -1,0 +1,181 @@
+/* .tagscontainer {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  padding-top: 50px;
+} */
+.Mobile {
+  display: none;
+}
+
+.Desktop {
+  display: block;
+}
+
+.desktopDiv {
+  display: block;
+}
+
+.eventBox {
+  width: 280px; 
+}
+
+.eventBoxImg {
+  width: 100%
+}
+
+#imageBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+option {
+  font-family: 'Roboto'sans-serif;
+}
+
+.tagsNavUl {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-areas: "map time tags search "
+    "map area tags search ";
+  list-style-type: none;
+  width: 100%;
+}
+
+.tagNavLi1 {
+  grid-area: map;
+  text-decoration: underline;
+  display: grid;
+  justify-items: start;
+}
+
+/* .tagNavLi1:hover {
+  color: rgb(238, 118, 169);
+} */
+
+.tagNavLi2 {
+  grid-area: time;
+  display: grid;
+  justify-items: start;
+  margin-bottom: 10px;
+}
+
+.tagNavLi3 {
+  grid-area: search;
+  /* Not show in phone? */
+}
+
+.tagNavLi4 {
+  grid-area: tags;
+  /*  tags dropdown 2 high */
+}
+
+.tagNavLi5 {
+  display: grid;
+  grid-area: area;
+  justify-items: start;
+}
+
+.guesses {
+  overflow: auto;
+  height: 250px;
+  font-size: 10px
+}
+
+/* .tagsdiv {
+  display: flex;
+  flex-direction: column;
+} */
+.labelBold {
+  font-weight: bold;
+  font-family: 'Archivo'sans-serif;
+  padding:5px;
+}
+.labelSmall {
+  font-size: 13px
+}
+
+label {
+  display: block;
+}
+
+.eventGridText {
+  font-family: 'Roboto'sans-serif;
+}
+
+@media only screen and (max-width: 435px) {
+  .tagsNavUl {
+    display: grid;
+    /* grid-template-areas: "a b"
+                         "a c"
+                         "d f"
+                         "e f"; */
+    grid-template-areas: "search"
+      "tags"
+      "area"
+      "time"
+      "map";
+    list-style-type: none;
+  }
+
+  .Desktop {
+    display: none;
+  }
+
+  .Mobile {
+    display: block;
+  }
+
+  .tagsNavUl li {
+    margin-bottom: 10px;
+  }
+
+  .eventBox {
+    width: 300px
+  }
+
+  .eventBoxImg {
+    width: 100%
+  }
+
+  #imageBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .arrows:hover{
+    color:black; 
+  }
+}
+
+#textSearchInput {
+  width: 80%; 
+  margin:10%;
+  padding: 5px;
+  height: 50px;
+  font-size: 30px
+}
+#textSearchLabel {
+  font-size: 20px;
+  margin:10%;
+  width: 80%
+}
+
+.arrows{
+  font-size: 20px;  
+}
+.arrows:hover{
+  color:red;  
+}
+.header{
+  width: 100%
+}
+.linkki:hover{
+  color:hotpink
+}

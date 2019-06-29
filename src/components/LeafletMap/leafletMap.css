@@ -1,0 +1,11 @@
+.leaflet-popup-content form {max-width:400px ;
+
+}
+.leaflet-popup-content form label select{max-width:330px ;
+
+} 
+#map{ z-index:1; }
+
+.leaflet-popup-content-wrapper{
+    padding-right: 15px
+}

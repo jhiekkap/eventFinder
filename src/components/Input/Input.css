@@ -1,0 +1,43 @@
+.inputNavUl {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100vw;
+}
+
+.inputNavLi {
+  background-color: rgb(28, 213, 224);
+  padding: 20px;
+  border-right: rgb(56, 54, 122) 1px solid;
+  align-content: center;
+  text-align: center;
+}
+
+.inputNavLi:hover {
+  background-color: rgb(238, 118, 169);
+}
+
+@media only screen and (max-width: 435px) {
+  .inputNavUl {
+    height: 80px;
+    grid-template-columns: repeat(3, 1fr); 
+    position: -webkit-sticky;
+    position: sticky;
+    left:0;
+    top:0;
+  }
+
+  .inputNavLi {
+    padding: 10px 0px 0px 0px;
+    border-bottom: rgb(56, 54, 122) 1px solid;
+  }
+
+  .inputNavSel {
+    width: 60px;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}

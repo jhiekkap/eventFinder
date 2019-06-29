@@ -1,0 +1,8 @@
+#favoriteEvents {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .eventHeader {
+    font-weight: bold;
+  }
