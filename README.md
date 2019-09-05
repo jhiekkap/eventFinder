@@ -7,6 +7,6 @@ Summerproject with React-19 Group of Business College Helsinki & Exove
 
 Team :
 
-Natalia Koroleva & Benita Laakso : UI design, CSS
-Jari Hiekkapelto: React, Node
+- Natalia Koroleva & Benita Laakso : UI design, CSS
+- Jari Hiekkapelto: React, Node
  
