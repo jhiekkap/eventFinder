@@ -1,3 +1,5 @@
+React - Node - MongoBD ( backend : https://github.com/jhiekkap/eventFinderServer )
+
 Search events in Helsinki using MyHelsinki Open API http://open-api.myhelsinki.fi/  database
 
 Heroku: https://pure-bayou-67882.herokuapp.com/
